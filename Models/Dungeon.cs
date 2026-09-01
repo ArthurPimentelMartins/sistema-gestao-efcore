@@ -20,6 +20,6 @@ namespace TrabEFCore.Models
         [Display(Name = "Recompensa")]
         public int Reward { get; set; }
 
-        public ICollection<Monster> Monsters { get; set; }
+        public ICollection<Monster>? Monsters { get; set; }
     }
 }

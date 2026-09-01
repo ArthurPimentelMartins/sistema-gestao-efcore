@@ -19,6 +19,6 @@ namespace TrabEFCore.Models
         [Display(Name = "Máximo de Membros")]
         public int MaxMembers { get; set; }
 
-        public ICollection<Hero> Heroes { get; set; }
+        public ICollection<Hero>? Heroes { get; set; }
     }
 }

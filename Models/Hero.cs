@@ -29,6 +29,6 @@ namespace TrabEFCore.Models
         public int? PartyId { get; set; }
         public Party? Party { get; set; }
 
-        public ICollection<Item> Items { get; set; }
+        public ICollection<Item>? Items { get; set; }
     }
 }
