@@ -3,6 +3,54 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Sistema de Gerenciamento RPG</h1>
+    <p class="lead">Gerencie heróis, grupos, itens, monstros e dungeons</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">⚔️ Heroes</h5>
+                <p class="card-text">Gerencie seus heróis e suas características</p>
+                <a href="@Url.Action("Index", "Heroes")" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">👥 Parties</h5>
+                <p class="card-text">Crie e organize grupos de aventureiros</p>
+                <a href="@Url.Action("Index", "Parties")" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">🗡️ Items</h5>
+                <p class="card-text">Catálogo de armas, armaduras e equipamentos</p>
+                <a href="@Url.Action("Index", "Items")" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">👹 Monsters</h5>
+                <p class="card-text">Registros de monstros e inimigos</p>
+                <a href="@Url.Action("Index", "Monsters")" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">🏰 Dungeons</h5>
+                <p class="card-text">Explore masmorras e desafios</p>
+                <a href="@Url.Action("Index", "Dungeons")" class="btn btn-primary">Acessar</a>
+            </div>
+        </div>
+    </div>
 </div>
